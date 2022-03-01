@@ -31,7 +31,7 @@ const Observaciones = ({ navigation }) => {
             <Button 
                 title= 'Buscar' 
                 onPress = {pushHandler}
-                color= '#9932cc'
+                color= '#8a2be2'
 
             />
             <Text>  </Text>
@@ -44,7 +44,7 @@ const Observaciones = ({ navigation }) => {
             <Button 
                 title= 'Comentar' 
                 onPress = {pushHandler}
-                color= '#9932cc'
+                color= '#8a2be2'
 
             />
             <Text>      

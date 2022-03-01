@@ -5,9 +5,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 
 
 const Home = ({ navigation}) => {
-   /* const inicioSesion = () => {
-        navigation.push('Login')
-    }*/
+
     const pressHandler = () => {
         navigation.push('Sesiones')
     }
@@ -17,6 +15,9 @@ const Home = ({ navigation}) => {
     const acercaDe = () => {
         navigation.push('About')
     }
+    const atras = () => {
+        navigation.push('Login')
+    }
    
 
     return (
@@ -25,21 +26,29 @@ const Home = ({ navigation}) => {
 
             <Button title='Ejercicios' 
                 onPress = {pressHandler}
-                color = '#9932cc'
+                color = '#8a2be2'
             />
             <Text> </Text>
             
             <Button 
                 title= 'Observaciones' 
-                color= '#9932cc'
+                color= '#8a2be2'
                 onPress={observTerapia}
             
             />
             <Text> </Text>
             <Button 
                 title= 'Acerca de'
-                color= '#9932cc'
+                color= '#8a2be2'
                 onPress={acercaDe}
+            
+            />
+            <Text> </Text>
+            
+            <Button 
+                title= 'Regresar'
+                color= '#8a2be2'
+                onPress={atras}
             
             />
 

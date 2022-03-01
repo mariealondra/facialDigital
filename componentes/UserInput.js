@@ -25,10 +25,10 @@ const UserInput = ({navigation}) => {
 const estilo = StyleSheet.create({
     input: {
         width: '100%',
-        backgroundColor: '#add8e6',
+        backgroundColor: '#faebd7',
         fontSize: 20,
         height: 50,
-        borderColor: '#777',
+        borderBottomColor: '#777',
         borderWidth: 1,
         margin: 10,
         padding: 8

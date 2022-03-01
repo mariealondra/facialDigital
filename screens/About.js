@@ -16,7 +16,7 @@ const About = ({navigation}) => {
             <Text>About</Text>
             <Button 
                 title= 'Regresar'
-                color= '#9932cc'
+                color= '#8a2be2'
                 onPress= {pushHandler}
             />
             
@@ -24,5 +24,6 @@ const About = ({navigation}) => {
     )
 
 };
+
 
 export default About;
