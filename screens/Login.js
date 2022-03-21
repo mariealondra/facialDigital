@@ -27,12 +27,11 @@ const Login = ({navigation}) => {
             />
             <Text>  </Text>
             <UserInput />
-            
-            <TouchableOpacity >
-                <Button 
-                title = 'Registrarse' 
-                onPress = {pushHandler}
-                color= '#8a2be2'
+            <Text>  </Text>
+            <TouchableOpacity onPress={pushHandler}>
+                <Image
+                    source= {require('../assets/registrarse.png')}
+                    style= {{width: 250, height: 50}}
                 />
             
             </TouchableOpacity>
@@ -40,7 +39,5 @@ const Login = ({navigation}) => {
         );
    
 };
-
-
 
 export default Login;

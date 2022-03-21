@@ -5,7 +5,7 @@ export const Global = StyleSheet.create ({
     
     container: {
       padding: 50,
-      backgroundColor: '#90ee90',
+      backgroundColor: '#f8f8ff',
       alignItems: 'center'
     }
        

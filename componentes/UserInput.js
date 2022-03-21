@@ -1,15 +1,13 @@
-import React from 'react'
-import { StyleSheet, View, Text, TextInput} from 'react-native'
-import { NavigationContainer } from '@react-navigation/native';
-import { Global } from '../styles/Global';
+import React from 'react';
+import { StyleSheet, View, Text, TextInput} from 'react-native';
 
-const UserInput = ({navigation}) => { 
+const UserInput = () => { 
     
     return (
         <View>
             <TextInput
                style= {estilo.input}
-               placeholder= 'Digite su nombre'
+               placeholder= 'Digite su usuario o email'
               
            />
            <TextInput
@@ -24,15 +22,15 @@ const UserInput = ({navigation}) => {
 
 const estilo = StyleSheet.create({
     input: {
-        width: '100%',
-        backgroundColor: '#faebd7',
-        fontSize: 20,
         height: 50,
-        borderBottomColor: '#777',
+        fontSize: 20,
         borderWidth: 1,
+        borderColor: '#777',
         margin: 10,
-        padding: 8
-    },
+        padding: 10,
+        justifyContent: 'center',
+        alignItems: 'center'
+    }
 
 })
 

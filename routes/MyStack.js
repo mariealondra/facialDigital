@@ -7,13 +7,15 @@ import Observaciones from '../screens/Observaciones';
 import About from '../screens/About';
 import UserInput from '../componentes/UserInput';
 import { Global } from '../styles/Global';
+import { StyleSheet, View, Text, Button, Image } from 'react-native'
 
 const Stack = createStackNavigator();
 
 
 const MyStack = () => {
     return (
-        <Stack.Navigator 
+        <Stack.Navigator
+            
         screenOptions={{
             headerStyle:  {
                 backgroundColor: '#9932cc'
@@ -22,15 +24,15 @@ const MyStack = () => {
             headerTitleStyle: {
                 fontWeight: 'bold'
             }
-        
+            
         }} >
             <Stack.Screen 
                 name = 'Login' 
                 component= {Login}
-                
             
+                
             />
-
+            
             <Stack.Screen name= 'Home' component={Home} />
 
             <Stack.Screen name = 'Sesiones' component={Sesiones} />
