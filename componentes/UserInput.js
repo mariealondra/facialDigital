@@ -20,6 +20,27 @@ const UserInput = () => {
     )
 }
 
+export default function UserInput(){
+    const [name, setName]= useState('');
+    const [password, sePassword]= useState();
+
+    return (
+        <View>
+            <TextInput
+               style= {estilo.input}
+               placeholder= 'Digite su usuario o email'
+              
+           />
+           <TextInput
+               style= {estilo.input}
+               placeholder= 'Escriba su contraseña'
+              
+           />
+        </View>
+        
+    )
+}
+
 const estilo = StyleSheet.create({
     input: {
         height: 50,
@@ -34,4 +55,3 @@ const estilo = StyleSheet.create({
 
 })
 
-export default UserInput;

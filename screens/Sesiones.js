@@ -12,8 +12,6 @@ import { FlatList,
     TouchableOpacity } 
     from 'react-native';
 import {Video} from 'expo-av';
-import Ejercicio1 from '../assets/Ejercicio1.mp4';
-import { Global } from '../styles/Global';
 
 
 

@@ -4,7 +4,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { Global } from '../styles/Global';
 import { ButtonStyle } from '../styles/ButtonStyle';
 import UserInput from '../componentes/UserInput';
-import logo from '../assets/logo.png'
+import { post } from '../backend/rutas/fadiapp';
 
 
 const Login = ({navigation}) => {
